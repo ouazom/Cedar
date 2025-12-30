@@ -21,7 +21,7 @@ export function NavigationMenuDemo() {
   return (
     <NavigationMenu viewport={isMobile}>
       <NavigationMenuList className="flex-wrap">
-        <NavigationMenuItem className="hidden md:block">
+        <NavigationMenuItem className="md:block">
           <NavigationMenuTrigger>Next.js Routes</NavigationMenuTrigger>
           <NavigationMenuContent>
             <ul className="grid w-50 gap-4">
@@ -36,7 +36,7 @@ export function NavigationMenuDemo() {
             </ul>
           </NavigationMenuContent>
         </NavigationMenuItem>
-        <NavigationMenuItem className="hidden md:block">
+        <NavigationMenuItem className="md:block">
           <NavigationMenuTrigger>Webflow Routes</NavigationMenuTrigger>
           <NavigationMenuContent>
             <ul className="grid w-50 gap-4">
